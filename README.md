@@ -66,5 +66,6 @@ I treat documentation as a product ecosystem, not a publishing function — alig
 
 - LinkedIn: https://www.linkedin.com/in/bipin-pandey-3594961a/  
 - Portfolio: https://bipin-24.github.io/
+- Projects: https://information-architecture-playbook-9zp09lqfd.vercel.app/index.html
 - Email: pandey.bipin2@gmail.com
 
