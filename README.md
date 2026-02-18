@@ -1,10 +1,10 @@
-## 👋 Bipin Kumar Pandey
+# 👋 Bipin Pandey
 
-### Principal Information Architect | Enterprise Content Strategy Leader | AI-Driven Documentation
+## Principal Information Architect | Enterprise Content Strategy Leader | AI-Driven Documentation
 
 I build scalable, intelligent documentation ecosystems for enterprise SaaS and platform products. With 14+ years of experience across global organizations, including Actian, Adobe, ABB, and Aristocrat Technologies, I specialize in transforming fragmented documentation into structured, measurable, high-impact content platforms.
 
-#### 📊 Measurable Impact
+### 📊 Measurable Impact
 
 - +50% organic traffic growth
 
@@ -18,7 +18,7 @@ I build scalable, intelligent documentation ecosystems for enterprise SaaS and p
 
 - -70% engineering onboarding time
 
-#### 🎯 Core Expertise
+### 🎯 Core Expertise
 
 - Enterprise Information Architecture
 
@@ -32,7 +32,7 @@ I build scalable, intelligent documentation ecosystems for enterprise SaaS and p
 
 - Documentation Governance & Team Leadership
 
-### 🧠 What Differentiates Me
+## 🧠 What Differentiates Me
 
 I treat documentation as a product ecosystem, not a publishing function — aligning architecture, automation, analytics, and AI to business impact.
 
