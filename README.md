@@ -1,9 +1,10 @@
-
 # Hi, I'm Bipin Pandey 👋
 
-### Principal Information Architect @ Actian · Building AI-ready documentation systems
+### Principal Information Architect · Content Systems · AI-Ready Knowledge Architecture
 
-I turn fragmented technical content into structured, measurable documentation ecosystems that scale — and increasingly, into knowledge sources that **large language models can retrieve, reason over, and answer from**. 14 years across Actian, Adobe, ABB, and Aristocrat Technologies, spanning the full arc from DITA migrations to **RAG pipelines** and **Model Context Protocol (MCP) servers**.
+I design content systems that scale — structuring, connecting, and engineering documentation so it works for **human readers, developer teams, and AI systems alike**. 14 years across Actian, Adobe, ABB, and Aristocrat Technologies, spanning DITA migrations, taxonomy design, metadata governance, RAG pipelines, and Model Context Protocol (MCP) servers.
+
+> I treat documentation as a product — aligning **information architecture, content modeling, analytics, and AI** to measurable business outcomes.
 
 <p>
   <a href="https://bipin-24.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-bipin--24.github.io-8b5cf6?style=for-the-badge"></a>
@@ -14,64 +15,65 @@ I turn fragmented technical content into structured, measurable documentation ec
 
 ---
 
-## 🤖 What I'm building now
+## 🏗️ What I Do
 
-At Actian I lead documentation as an AI-native product — not just pages, but a corpus engineered for both human readers and AI assistants:
+**Information Architecture** — I design the structures that make content findable, reusable, and consistent at scale: taxonomy, metadata schemas, content models, navigation systems, and governance frameworks.
 
-- A **production RAG chatbot** that grounds LLM answers in the documentation corpus using embeddings and semantic search.
-- An **MCP server** that exposes the docs corpus, GA4 analytics, and Jenkins CI status to Claude, so you can query all three in a single natural-language conversation.
-- A **GA4 → BigQuery content-gap pipeline** that surfaces zero-result searches and high-exit pages as a weekly prioritization dashboard.
-- **Jenkins CI/CD** publishing with automated validation gates — cutting build & release time and eliminating manual errors.
+**AI-Ready Content Systems** — I engineer documentation corpora that LLMs can retrieve and reason over — applying chunking strategy, semantic tagging, and structured authoring principles so content performs in RAG pipelines, not just in browsers.
 
-> I treat documentation as a product ecosystem, not a publishing function — aligning architecture, automation, analytics, and AI to business impact.
+**Docs-as-Code & CI/CD** — I build and operate publishing pipelines (Jenkins, GitHub Actions, MkDocs) that treat documentation like software: version-controlled, validated, and automatically deployed.
 
----
-
-## 🚀 Featured Projects
-
-| Project | What it is | Stack |
-| --- | --- | --- |
-| **[docs-mcp](https://github.com/Bipin-24/docs-mcp)** | MCP server exposing Actian docs, GA4 content gaps, and Jenkins CI status to Claude via natural-language tool calls (`search_docs`, `get_content_gaps`, `get_build_status`). | TypeScript · MCP · RAG |
-| **[Documentation-AI-Assistant](https://github.com/Bipin-24/Documentation-AI-Assistant)** | Retrieval-augmented documentation chatbot that grounds answers in the docs corpus with embeddings + semantic search. | Python · RAG · LLM |
-| **[information-architecture-playbook](https://github.com/Bipin-24/information-architecture-playbook)** · [Live](https://information-architecture-playbook.vercel.app/) | A living playbook: IA principles, governance checklists, a maturity model, and content-modeling templates. | IA · Docs-as-Code |
-| **[bipin-24.github.io](https://bipin-24.github.io/)** | My portfolio — experience, AI-ready content approach, and impact. | HTML/CSS/JS |
+**Analytics-Driven IA** — I connect GA4, BigQuery, and content-gap analysis to IA decisions — measuring what users can't find, then restructuring to fix it.
 
 ---
 
 ## 📊 Measurable Impact
 
-| Metric | Result |
-| --- | --- |
+| What I improved | Result |
+|---|---|
 | Content discoverability | **+45%** |
-| Organic traffic | **+50%** |
+| Organic search traffic | **+50%** |
+| Duplicate / redundant content | **−35%** |
+| API self-service success rate | **+40%** |
 | Engineering onboarding time | **−70%** |
-| API self-service success | **+40%** |
 | Documentation build & publish time | **−40%** |
-| Duplicate content | **−35%** |
 | Adobe HelpX users supported | **1M+ / quarter** |
 
 ---
 
-## 🧠 Tech & Tooling
+## 🚀 Featured Work
 
-**AI & Retrieval** — RAG · Vector embeddings · Semantic search · Model Context Protocol (MCP) · ChromaDB · pgvector · Prompt engineering · Claude Code · LLM integration
+| Project | What it demonstrates |
+|---|---|
+| **[information-architecture-playbook](https://information-architecture-playbook.vercel.app/)** | IA principles, governance checklists, content maturity model, and content-modeling templates — a living reference for scaling IA practice |
+| **[docs-mcp](https://github.com/Bipin-24/docs-mcp)** | MCP server exposing a structured docs corpus, GA4 content gaps, and CI status to Claude via natural-language tool calls — IA meets AI retrieval |
+| **[Documentation-AI-Assistant](https://github.com/Bipin-24/Documentation-AI-Assistant)** | RAG chatbot grounded in a structured docs corpus — shows how good IA directly improves LLM answer quality |
+| **[bipin-24.github.io](https://bipin-24.github.io/)** | Portfolio — experience, IA approach, and impact |
 
-**Information Architecture** — Topic-based authoring · Taxonomy design · Metadata standards · Content modeling · DITA · Single-source publishing · Markdoc · Markdown
+---
 
-**API & Developer Docs** — REST · GraphQL · OpenAPI/Swagger · Postman · Interactive sandboxes · Developer onboarding
+## 🧠 Skills & Tooling
 
-**Engineering & Tooling** — Docs-as-code · Python · TypeScript · Jenkins CI/CD · GitHub Actions · Static site generators · MkDocs · AEM
+**Core IA** — Taxonomy & ontology design · Metadata standards · Content modeling · Topic-based authoring · DITA · Single-source publishing · Navigation & findability · Governance frameworks
 
-**Analytics & SEO** — Google Analytics 4 · BigQuery · Adobe Analytics · Technical SEO · Content performance dashboards
+**AI & Retrieval** — RAG · Vector embeddings · Semantic search · Model Context Protocol (MCP) · Prompt engineering · LLM integration · ChromaDB · pgvector
+
+**Developer & API Docs** — REST · GraphQL · OpenAPI/Swagger · Postman · Interactive sandboxes · Developer onboarding
+
+**Tooling & Engineering** — Docs-as-code · Python · TypeScript · Jenkins CI/CD · GitHub Actions · MkDocs · Markdoc · AEM · FrameMaker
+
+**Analytics** — Google Analytics 4 · BigQuery · Adobe Analytics · Content performance dashboards · SEO
 
 ---
 
 ## 💼 Experience
 
-- **Actian** — Principal Information Architect · *Apr 2024 – Present*
-- **Adobe** — Information Architect · *Sep 2021 – Apr 2024*
-- **ABB** — Senior Technical Writer / Information Architect · *Aug 2018 – Sep 2021*
-- **Aristocrat Technologies** — Senior Technical Writer · *Jun 2012 – Jul 2018*
+| Role | Company | Period |
+|---|---|---|
+| Principal Information Architect | **Actian** | Apr 2024 – Present |
+| Information Architect | **Adobe** | Sep 2021 – Apr 2024 |
+| Senior Technical Writer / Information Architect | **ABB** | Aug 2018 – Sep 2021 |
+| Senior Technical Writer | **Aristocrat Technologies** | Jun 2012 – Jul 2018 |
 
 🎓 **B.Tech, Aeronautical Engineering** — R. V. College of Engineering, Bangalore
 
@@ -82,7 +84,3 @@ At Actian I lead documentation as an AI-native product — not just pages, but a
 ## 🌐 Connect
 
 [Portfolio](https://bipin-24.github.io/) · [LinkedIn](https://www.linkedin.com/in/bipin-pandey24/) · [IA Playbook](https://information-architecture-playbook.vercel.app/) · pandey.bipin2@gmail.com
-
-<!-- Optional: add GitHub stats once your repos have activity
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Bipin-24&show_icons=true&theme=radical)
--->
