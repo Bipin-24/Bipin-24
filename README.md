@@ -45,10 +45,12 @@ I design content systems that scale — structuring, connecting, and engineering
 
 | Project | What it demonstrates |
 |---|---|
-| **[information-architecture-playbook](https://information-architecture-playbook.vercel.app/)** | IA principles, governance checklists, content maturity model, and content-modeling templates — a living reference for scaling IA practice |
-| **[docs-mcp](https://github.com/Bipin-24/docs-mcp)** | MCP server exposing a structured docs corpus, GA4 content gaps, and CI status to Claude via natural-language tool calls — IA meets AI retrieval |
-| **[Documentation-AI-Assistant](https://github.com/Bipin-24/Documentation-AI-Assistant)** | RAG chatbot grounded in a structured docs corpus — shows how good IA directly improves LLM answer quality |
-| **[bipin-24.github.io](https://bipin-24.github.io/)** | Portfolio — experience, IA approach, and impact |
+| **[Knowlayer](https://bipin-24.github.io/knowlayer/)** | Live service + writing on making enterprise content AI-ready — including deep-dives on [chunking](https://bipin-24.github.io/knowlayer/docs/chunking/) and [knowledge graphs](https://bipin-24.github.io/knowlayer/docs/knowledge-graphs/) |
+| **[knowledge-graphs-for-ia](https://github.com/Bipin-24/knowledge-graphs-for-ia)** | Turns documentation into a knowledge graph with a working GraphRAG demo — IA modeling made executable |
+| **[docs-style-guard](https://github.com/Bipin-24/docs-style-guard)** | Automated writing-standards enforcement — turns a style guide into a check that runs on every change |
+| **[docs-mcp](https://github.com/Bipin-24/docs-mcp)** | Foundational MCP server — exposes a documentation corpus, GA4 content gaps, and Jenkins CI status to Claude via natural-language tool calls. The base retrieval layer |
+| **[knowflow](https://github.com/Bipin-24/knowflow)** | Evolution of docs-mcp — adds a RAGAS-style evaluation loop (relevance, faithfulness, recall) so you can measure retrieval quality, not just retrieve it. The full content-intelligence loop |
+| **[information-architecture-playbook](https://information-architecture-playbook.vercel.app/)** | IA principles, governance checklists, maturity model, and content-modeling templates |
 
 ---
 
