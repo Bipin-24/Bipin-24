@@ -1,10 +1,12 @@
 # Hi, I'm Bipin Pandey 👋
 
-### Principal Information Architect · Content Systems · AI-Ready Knowledge Architecture
+### Principal Information Architect · RAG & Retrieval Systems · MCP Servers
 
-I design content systems that scale — structuring, connecting, and engineering documentation so it works for **human readers, developer teams, and AI systems alike**. 14 years across Actian, Adobe, ABB, and Aristocrat Technologies, spanning DITA migrations, taxonomy design, metadata governance, RAG pipelines, and Model Context Protocol (MCP) servers.
+I build the knowledge layer that AI systems retrieve from. Enterprise corpora are written for human readers, which is why retrieval over them performs badly — my work is turning a large product documentation corpus into something an LLM can query accurately, and then measuring whether it actually works.
 
-> I treat documentation as a product — aligning **information architecture, content modeling, analytics, and AI** to measurable business outcomes.
+14 years across Actian, Adobe, ABB, and Aristocrat Technologies, from DITA migrations and taxonomy design through to RAG pipelines, retrieval evaluation, and Model Context Protocol (MCP) servers.
+
+> Documentation now has two audiences: the people reading it and the systems querying it. I build for both, and I measure the second.
 
 <p>
   <a href="https://bipin-24.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-bipin--24.github.io-8b5cf6?style=for-the-badge"></a>
@@ -15,15 +17,47 @@ I design content systems that scale — structuring, connecting, and engineering
 
 ---
 
+## 🚀 Featured Work
+
+| Project | What it demonstrates |
+|---|---|
+| **[docs-mcp](https://github.com/Bipin-24/docs-mcp)** | MCP server in TypeScript. Five tool handlers exposing a documentation corpus, GA4 content gaps, and Jenkins CI status to Claude in one conversation. The base retrieval layer |
+| **[knowflow](https://github.com/Bipin-24/knowflow)** | Evolution of docs-mcp — adds a RAGAS-style evaluation loop (relevance, faithfulness, recall) so retrieval quality is measured, not assumed. The full content-intelligence loop |
+| **[Documentation-AI-Assistant](https://github.com/Bipin-24/Documentation-AI-Assistant)** | RAG pipeline and chat UI over a documentation corpus — embeddings, semantic search, and grounded response generation |
+| **[knowledge-graphs-for-ia](https://github.com/Bipin-24/knowledge-graphs-for-ia)** | Turns documentation into a typed knowledge graph (REQUIRES / COVERS / BELONGS_TO) with graph-traversal retrieval. GraphRAG generation in progress |
+| **[docs-style-guard](https://github.com/Bipin-24/docs-style-guard)** | Automated writing-standards enforcement — turns a style guide into a check that runs on every change, callable over MCP |
+| **[Knowlayer](https://bipin-24.github.io/knowlayer/)** | Live service and writing on making enterprise content AI-ready, including deep-dives on [chunking](https://bipin-24.github.io/knowlayer/docs/chunking/) and [knowledge graphs](https://bipin-24.github.io/knowlayer/docs/knowledge-graphs/) |
+| **[information-architecture-playbook](https://information-architecture-playbook.vercel.app/)** | IA principles, governance checklists, maturity model, and content-modeling templates |
+
+---
+
 ## 🏗️ What I Do
 
-**Information Architecture** — I design the structures that make content findable, reusable, and consistent at scale: taxonomy, metadata schemas, content models, navigation systems, and governance frameworks.
+**AI-Ready Content Systems** — I engineer documentation corpora that LLMs can retrieve and reason over: chunking strategy, semantic metadata, and structured authoring so content performs in a RAG pipeline, not just in a browser.
 
-**AI-Ready Content Systems** — I engineer documentation corpora that LLMs can retrieve and reason over — applying chunking strategy, semantic tagging, and structured authoring principles so content performs in RAG pipelines, not just in browsers.
+**Retrieval & Evaluation** — RAG pipelines with RAGAS-style evaluation measuring answer relevance, faithfulness, and context recall against a repeatable baseline. Evaluation is the part most RAG projects skip, and the reason most of them cannot be trusted in production.
 
-**Docs-as-Code & CI/CD** — I build and operate publishing pipelines (Jenkins, GitHub Actions, MkDocs) that treat documentation like software: version-controlled, validated, and automatically deployed.
+**MCP & Tool Design** — MCP servers that expose a corpus, analytics, and CI status as tools any MCP client can discover and call.
 
-**Analytics-Driven IA** — I connect GA4, BigQuery, and content-gap analysis to IA decisions — measuring what users can't find, then restructuring to fix it.
+**Information Architecture** — The structures that make content findable, reusable, and consistent at scale: taxonomy, metadata schemas, content models, navigation systems, and governance frameworks.
+
+**Docs-as-Code & CI/CD** — Publishing pipelines (Jenkins, GitHub Actions, MkDocs) that treat documentation like software: version-controlled, validated, automatically deployed.
+
+**Analytics-Driven IA** — GA4, BigQuery, and content-gap analysis wired into IA decisions: measure what users cannot find, then restructure to fix it.
+
+---
+
+## 🧠 Skills & Tooling
+
+**AI & Retrieval** — RAG · Vector embeddings · Semantic search · Model Context Protocol (MCP) · RAGAS evaluation · Knowledge graphs · ChromaDB · pgvector · Prompt engineering · LLM integration
+
+**Core IA** — Taxonomy & ontology design · Metadata standards · Content modeling · Topic-based authoring · DITA · Single-source publishing · Navigation & findability · Governance frameworks
+
+**Tooling & Engineering** — Docs-as-code · Python · TypeScript · Jenkins CI/CD · GitHub Actions · MkDocs · Markdoc · AEM · FrameMaker
+
+**Developer & API Docs** — REST · GraphQL · OpenAPI/Swagger · Postman · Interactive sandboxes · Developer onboarding
+
+**Analytics** — Google Analytics 4 · BigQuery · Adobe Analytics · Content performance dashboards · SEO
 
 ---
 
@@ -41,33 +75,6 @@ I design content systems that scale — structuring, connecting, and engineering
 
 ---
 
-## 🚀 Featured Work
-
-| Project | What it demonstrates |
-|---|---|
-| **[Knowlayer](https://bipin-24.github.io/knowlayer/)** | Live service + writing on making enterprise content AI-ready — including deep-dives on [chunking](https://bipin-24.github.io/knowlayer/docs/chunking/) and [knowledge graphs](https://bipin-24.github.io/knowlayer/docs/knowledge-graphs/) |
-| **[knowledge-graphs-for-ia](https://github.com/Bipin-24/knowledge-graphs-for-ia)** | Turns documentation into a knowledge graph with a working GraphRAG demo — IA modeling made executable |
-| **[docs-style-guard](https://github.com/Bipin-24/docs-style-guard)** | Automated writing-standards enforcement — turns a style guide into a check that runs on every change |
-| **[docs-mcp](https://github.com/Bipin-24/docs-mcp)** | Foundational MCP server — exposes a documentation corpus, GA4 content gaps, and Jenkins CI status to Claude via natural-language tool calls. The base retrieval layer |
-| **[knowflow](https://github.com/Bipin-24/knowflow)** | Evolution of docs-mcp — adds a RAGAS-style evaluation loop (relevance, faithfulness, recall) so you can measure retrieval quality, not just retrieve it. The full content-intelligence loop |
-| **[information-architecture-playbook](https://information-architecture-playbook.vercel.app/)** | IA principles, governance checklists, maturity model, and content-modeling templates |
-
----
-
-## 🧠 Skills & Tooling
-
-**Core IA** — Taxonomy & ontology design · Metadata standards · Content modeling · Topic-based authoring · DITA · Single-source publishing · Navigation & findability · Governance frameworks
-
-**AI & Retrieval** — RAG · Vector embeddings · Semantic search · Model Context Protocol (MCP) · Prompt engineering · LLM integration · ChromaDB · pgvector
-
-**Developer & API Docs** — REST · GraphQL · OpenAPI/Swagger · Postman · Interactive sandboxes · Developer onboarding
-
-**Tooling & Engineering** — Docs-as-code · Python · TypeScript · Jenkins CI/CD · GitHub Actions · MkDocs · Markdoc · AEM · FrameMaker
-
-**Analytics** — Google Analytics 4 · BigQuery · Adobe Analytics · Content performance dashboards · SEO
-
----
-
 ## 💼 Experience
 
 | Role | Company | Period |
@@ -79,7 +86,7 @@ I design content systems that scale — structuring, connecting, and engineering
 
 🎓 **B.Tech, Aeronautical Engineering** — R. V. College of Engineering, Bangalore
 
-📜 *Prompt Engineering: How to Talk to the AIs (2025)* · *UX Foundations: Information Architecture* · *Jenkins Essential Training* · *The Web Developer Bootcamp*
+📜 *Prompt Engineering: How to Talk to the AIs (2025)* · *UX Foundations: Information Architecture* · *Jenkins Essential Training*
 
 ---
 
