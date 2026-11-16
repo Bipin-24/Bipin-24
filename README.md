@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+    <img alt="Bipin Pandey. I build the layer AI systems retrieve from and reason over: ontologies, knowledge graphs, MCP tools and evaluated RAG." src="assets/banner-dark.svg" width="100%">
+  </picture>
+</p>
+
 # Hi, I'm Bipin Pandey 👋
 
 ### AI Knowledge Engineer · Ontologies & Knowledge Graphs · MCP Tool Interfaces · RAG
@@ -15,6 +23,14 @@ I make complex products usable by AI. Enterprise systems expose rich knowledge (
   <a href="mailto:pandey.bipin2@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-pandey.bipin2-475569?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg">
+    <img alt="Public GitHub activity over the last 12 months: contributions, commits, pull requests, original repositories, and primary language by repository." src="assets/stats-dark.svg" width="100%">
+  </picture>
+</p>
+
 ---
 
 ## ⭐ Start here: SimOnto
@@ -29,6 +45,20 @@ I make complex products usable by AI. Enterprise systems expose rich knowledge (
 - **34 tests** including an end-to-end MCP subprocess test; CI fails if the ontology or generated docs drift
 
 The demo product is fictional and the backend is simulated (stated plainly in the README). The pipeline is real.
+
+---
+
+## 🧭 How it fits together
+
+The work follows three ideas. Arrows show only relationships stated in the repositories themselves.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/work-map-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/work-map-light.svg">
+    <img alt="Map of the six repositories grouped under three ideas: ontology and knowledge graph (simonto, knowledge-graphs-for-ia), typed agent tools over MCP (docs-mcp, docs-style-guard), and evaluated retrieval (knowflow, Documentation-AI-Assistant). simonto generates typed MCP tools; knowflow is the evolution of docs-mcp." src="assets/work-map-dark.svg" width="100%">
+  </picture>
+</p>
 
 ---
 
@@ -107,6 +137,20 @@ The demo product is fictional and the backend is simulated (stated plainly in th
 
 ---
 
+## 📈 Activity
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/activity-light.svg">
+    <img alt="Heatmap of public GitHub contributions by day over the last year." src="assets/activity-dark.svg" width="100%">
+  </picture>
+</p>
+
+---
+
 ## 🌐 Connect
 
 [Portfolio](https://bipin-24.github.io/) · [LinkedIn](https://www.linkedin.com/in/bipin-pandey24/) · [IA Playbook](https://information-architecture-playbook.vercel.app/) · pandey.bipin2@gmail.com
+
+<sub>The cards above are generated from the GitHub API by a workflow in this repository ([`scripts/generate-cards.mjs`](scripts/generate-cards.mjs)), refreshed daily, with no third-party stat services. They show public activity only.</sub>
